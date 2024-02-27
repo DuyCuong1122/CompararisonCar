@@ -1,0 +1,32 @@
+{
+  "name": "do_an_tot_nghiep",
+  "version": "1.0.0",
+  "description": "compare the specs of cars",
+  "main": "src/index.js",
+  "scripts": {
+    "start" : "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuyCuong1122/CompararisonCar.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js"
+  ],
+  "author": "Duy Cuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuyCuong1122/CompararisonCar/issues"
+  },
+  "homepage": "https://github.com/DuyCuong1122/CompararisonCar#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
